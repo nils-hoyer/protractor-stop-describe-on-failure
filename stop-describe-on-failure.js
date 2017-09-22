@@ -32,7 +32,7 @@ const isSpecFailed = (spec) => {
  * @returns {*}
  * @constructor
  */
-const FailDescribeReporter = (env) => {
+const StopDescribeReporter = (env) => {
 
     if (!env) {
         throw new Error('required parameter is missing');
@@ -62,4 +62,4 @@ const FailDescribeReporter = (env) => {
     return this;
 };
 
-module.exports = FailDescribeReporter;
+module.exports = StopDescribeReporter;
