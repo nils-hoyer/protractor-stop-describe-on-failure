@@ -1,0 +1,24 @@
+{
+  "name": "protractor-stop-describe-on-failure",
+  "version": "1.0.2",
+  "description": "describe will stop executing it blocks after first fail",
+  "main": "stop-describe-on-failure.js",
+  "keywords": [
+    "protractor",
+    "jasmine",
+    "selenium",
+    "webdriver"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nils-hoyer/protractor-stop-describe-on-failure.git"
+  },
+  "homepage": "https://github.com/nils-hoyer/protractor-stop-describe-on-failure#readme",
+  "bugs": {
+    "url": "https://github.com/nils-hoyer/protractor-stop-describe-on-failure/issues"
+  },
+   "author": {
+    "name": "Nils Hoyer"
+  },
+  "license": "MIT"
+}
