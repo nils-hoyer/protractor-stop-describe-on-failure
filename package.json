@@ -1,6 +1,6 @@
 {
   "name": "protractor-stop-describe-on-failure",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "describe will stop executing it blocks after first fail",
   "main": "stop-describe-on-failure.js",
   "keywords": [

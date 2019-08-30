@@ -1,10 +1,11 @@
 # protractor-stop-describe-on-failure 
-describe block will stop executing it blocks after first fail to minimize test runtime.
+'describe' function will stop executing further 'it' blocks after the first error.
 
 # usage
 The protractor-stop-describe-on-failurer is available via npm:
 
-```npm install protractor-stop-describe-on-failure --save-dev```
+Protractor Version >= 6.0.0 ```npm i protractor-stop-describe-on-failure```
+Protractor Version < 6.0.0 ```npm i protractor-stop-describe-on-failure@1.0.3```
 
 In your protractor configuration file, register the reporter in jasmine:
 

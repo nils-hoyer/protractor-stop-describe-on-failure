@@ -53,7 +53,7 @@ const StopDescribeReporter = (env) => {
 
             specs.forEach( (spec) => {
                 if (isSpecParent(spec.result.fullName, specParentName)) {
-                    spec.disable();
+                    spec.pend();
                 }
             });
         }
